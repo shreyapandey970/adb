@@ -1,0 +1,301 @@
+.adBanners {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.adBanner {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  height:200px;
+  width: 400px;
+  position: relative;
+}
+
+.adBannerimg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border-color: black;
+}
+
+/* Default styles for title, description, and button */
+.adTitle {
+  margin: 10px 0 0;
+  font-size: 16px;
+}
+
+.adDesc {
+  margin: 5px 0;
+}
+
+.adButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editButton {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.editSheet {
+  position: absolute;
+  border-radius: 15px;
+  margin-left:320px;
+  margin-top:-200px;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.editSheet h2 {
+  margin-top: 0;
+}
+
+.editSheet label {
+  display: block;
+  margin: 10px 0;
+}
+
+.editSheet input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.editSheet button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editSheet button:last-child {
+  background-color: #adabab;
+  margin-left: 10px;
+}
+
+/* Specific styles for banner 1 */
+.adTitle0 {
+  color: white;
+  position:absolute;
+  margin-top:-150px;
+  margin-left:10px;
+  font-size:29px;
+  font-family:monospace;
+}
+
+.adDesc0 {
+  color: pink; 
+  position:absolute;
+  max-width:200px;
+  margin-left:-10px;
+  margin-top:-110px;
+  font-size:20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.adButton0 {
+  background-color: pink;
+  position:absolute;
+  margin-top:150px;
+  margin-left:-385px;
+}
+
+.adBg0{
+  margin-top:30px;
+  position:absolute;
+  height:200px;
+  width:230px;
+  margin-left:-200px;
+  border-radius:130px;
+  clip-path: inset(0 30px 30px 0px);
+}
+
+
+
+
+
+/* Specific styles for banner 2 */
+.adTitle1 {
+  color: rgb(255, 255, 255);
+  position:absolute;
+  margin-top:-180px;
+  margin-left:10px;
+  font-size:37px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.adDesc1 {
+  color: rgb(255, 251, 0); 
+  position:absolute;
+  max-width:350px;
+  margin-left:15px;
+  margin-top:-130px;
+  font-size:19px;
+  font-family:sans-serif;
+  text-align: left;
+}
+
+.adButton1 {
+  background-color: rgb(0, 225, 255);
+  position:absolute;
+  margin-top:150px;
+  margin-left:-385px;
+}
+
+.adBg1{
+  opacity:0;
+  height:0px;
+  width:0px;
+}
+
+
+
+
+
+
+/* Specific styles for banner 3 */
+.adTitle2 {
+  color: rgb(255, 175, 1);
+  position:absolute;
+  margin-top:-210px;
+  margin-left:10px;
+  font-size:37px;
+  font-family:cursive;
+}
+
+.adDesc2 {
+  color: #9c82fc; 
+  position:absolute;
+  max-width:150px;
+  margin-left:15px;
+  margin-top:-150px;
+  font-size:19px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: left;
+}
+
+.adButton2 {
+  background-color:rgb(255, 175, 1);
+  position:absolute;
+  margin-top:150px;
+  margin-left:-80px;
+}
+
+.adBg2{
+  margin-top:15px;
+  position:absolute;
+  height:170px;
+  width:170px;
+  margin-left:-290px;
+  border-radius:130px;
+  
+}
+
+
+
+
+
+/* Specific styles for banner 4 */
+.adTitle3 {
+  color: rgb(0, 0, 0);
+  position:absolute;
+  margin-top:-200px;
+  margin-left:179px;
+  font-size:37px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.adDesc3 {
+  color: #fff; 
+  position:absolute;
+  max-width:150px;
+  margin-left:205px;
+  margin-top:-150px;
+  font-size:19px;
+  font-family:cursive;
+  text-align: center;
+}
+
+.adButton3 {
+  background-color: black;
+  position:absolute;
+  margin-top:140px;
+  margin-left:-170px;
+}
+
+.adBg3{
+  margin-top:15px;
+  position:absolute;
+  height:170px;
+  width:170px;
+  margin-left:-290px;
+  border-radius:130px;
+  
+}
+
+
+
+
+/* Specific styles for banner 5 */
+.adTitle4 {
+  color: rgb(0, 0, 0);
+  position:absolute;
+  margin-top:-190px;
+  margin-left:10px;
+  font-size:35px;
+  max-width: 100px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.adDesc4 {
+  color: #cf7efd; 
+  position:absolute;
+  max-width:150px;
+  margin-left:9px;
+  margin-top:-103px;
+  font-size:19px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: left;
+}
+
+.adButton4 {
+  background-color: #cf7efd;
+  position:absolute;
+  margin-top:150px;
+  margin-left:-90px;
+}
+
+.adBg4{
+  margin-top:15px;
+  position:absolute;
+  height:295px;
+  width:400px;
+  margin-left: -600px;
+  margin-top:-15px;
+  border-radius:350px;  
+  clip-path: inset(15px 0 80px 200px);
+}
