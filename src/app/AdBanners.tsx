@@ -16,13 +16,11 @@ const AdBanners: React.FC = () => {
   const [ads, setAds] = useState<AdBanner[]>([]);
   const [selectedAd, setSelectedAd] = useState<AdBanner | null>(null);
   const [showEditSheet, setShowEditSheet] = useState(false);
-  const baseUrl = window.location.hostname === 'shreyapandey970.github.io'
-  ? 'https://shreyapandey970.github.io/adb/ads.json'
-  : '/ads.json';
+  
 
   useEffect(() => {
     const fetchAds = async () => {
-      const response = await fetch(baseUrl);
+      const response = await fetch('/ads.json');
       const data = await response.json();
       setAds(data);
     };
