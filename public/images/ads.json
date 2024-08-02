@@ -4,7 +4,7 @@
       "title": "Technology",
       "desc": "AI Chef Plans to sore this season",
       "cta": "Learn More",
-      "image": "./images/ad1.jpg",
+      "image": "/images/ad1.jpg",
       "bg": "https://img.chemie.de/Portal/News/647d79c8ddbe4_F5yNhkqMl.png?tr=w-1232,h-924,cm-extract,x-0,y-0:n-xzoom"
     },
     {
@@ -12,7 +12,7 @@
       "title": "Thinking Wild",
       "desc": "Discover your true creativity with GrowEasy",
       "cta": "Discover",
-      "image": "./images/ad2.jpg",
+      "image": "/images/ad2.jpg",
       "bg": ""
     },
     {
@@ -20,7 +20,7 @@
       "title": "Technology",
       "desc": "AI Chef Plans to sore this season ",
       "cta": "Explore",
-      "image": "./images/ad3.jpg",
+      "image": "/images/ad3.jpg",
       "bg": "https://as1.ftcdn.net/v2/jpg/05/49/31/62/1000_F_549316273_CkzWjbd9441XBGaO1SDaNd4zYTMjJVfs.jpg"
     },
     {
@@ -28,7 +28,7 @@
       "title": "Technology",
       "desc": "AI Chef Plans to sore this season",
       "cta": "Learn More",
-      "image": "./images/ad4.jpg",
+      "image": "/images/ad4.jpg",
       "bg": ""
     },
     {
@@ -36,7 +36,7 @@
       "title": "THINKING WILD",
       "desc": "Discover your true creativity with GrowEasy",
       "cta": "Discover",
-      "image": "./images/ad5.jpg",
+      "image": "/images/ad5.jpg",
       "bg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27TWbHxxs-ToAJoNJCL5Q5jmrhFh62zKbsw&s"
     }
   ]
